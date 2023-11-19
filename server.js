@@ -5,7 +5,7 @@ const hostname = 'localhost';
 const port = 3000;
 
 const app = express();
-app.use(morgoan('dev'));
+app.use(morgan('dev'));
 
 app.use(express.static(__dirname + '/public'));
 
